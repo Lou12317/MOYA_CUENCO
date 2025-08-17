@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elite Photo Studio - Contact</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="assets/css/fonts.css">
+</head>
+<body class="bg-black text-white font-sans">
+
+  <!-- NAVIGATION -->
+  <nav class="sticky top-0 z-50 bg-black/80 backdrop-blur-md border-b border-zinc-800">
+    <div class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-2xl font-bold tracking-wide">Elite Photo Studio</h1>
+      <ul class="hidden md:flex gap-8 text-lg font-medium">
+        <li><a href="index.html" class="hover:text-pink-400 transition">Home</a></li>
+        <li><a href="about.html" class="hover:text-pink-400 transition">About Us</a></li>
+        <li><a href="service.html" class="hover:text-pink-400 transition">Services</a></li>
+        <li><a href="portfolio.html" class="hover:text-pink-400 transition">Portfolio</a></li>
+        <li><a href="price.html" class="hover:text-pink-400 transition">Pricing</a></li>
+        <li><a href="contact.html" class="text-pink-400 font-semibold">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <section class="relative h-72 flex items-center justify-center bg-cover bg-center" style="background-image: url('https://wallpapercrafter.com/desktop/15764-photographer-camera-selfie-hood-lens-hidden-face-4k.jpg');">
+    <div class="absolute inset-0 bg-black/60"></div>
+    <div class="relative z-10 text-center px-6">
+      <h2 class="text-4xl md:text-6xl font-bold">Get in Touch</h2>
+      <p class="text-gray-300 mt-3 text-lg">We’d love to hear from you</p>
+    </div>
+  </section>
+
+  <!-- CONTACT FORM + INFO -->
+  <section class="py-20 bg-black">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+      
+      <!-- FORM -->
+      <div class="bg-zinc-900 p-8 rounded-2xl shadow-lg border border-zinc-800">
+        <h3 class="text-2xl font-semibold mb-6">Send Us a Message</h3>
+        <form class="space-y-5">
+          <input type="text" placeholder="Your Name" class="w-full px-4 py-3 rounded-lg bg-black border border-gray-700 text-white focus:border-pink-500 focus:ring-1 focus:ring-pink-500 outline-none">
+          <input type="email" placeholder="Your Email" class="w-full px-4 py-3 rounded-lg bg-black border border-gray-700 text-white focus:border-pink-500 focus:ring-1 focus:ring-pink-500 outline-none">
+          <textarea rows="5" placeholder="Your Message" class="w-full px-4 py-3 rounded-lg bg-black border border-gray-700 text-white focus:border-pink-500 focus:ring-1 focus:ring-pink-500 outline-none"></textarea>
+          <button type="submit" class="w-full bg-pink-500 hover:bg-pink-600 py-3 rounded-lg text-white font-semibold transition">Send Message</button>
+        </form>
+      </div>
+
+      <!-- CONTACT INFO -->
+      <div class="flex flex-col justify-center">
+        <h3 class="text-2xl font-semibold mb-6">Contact Information</h3>
+        <p class="text-gray-300 mb-6">We are here to answer any questions you may have about our studio, services, or packages.</p>
+        <div class="space-y-5 text-gray-400">
+          <p><span class="text-pink-400 font-semibold">Address:</span> 123 Elite St., Manila, Philippines</p>
+          <p><span class="text-pink-400 font-semibold">Phone:</span> +63 912 345 6789</p>
+          <p><span class="text-pink-400 font-semibold">Email:</span> info@elitephotostudio.com</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-zinc-950 text-center py-6 border-t border-zinc-800">
+    <p class="text-gray-500">&copy; 2025 Elite Photo Studio. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

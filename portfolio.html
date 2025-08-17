@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elite Photo Studio - Portfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="assets/css/fonts.css">
+</head>
+<body class="bg-gradient-to-b from-black via-zinc-900 to-black text-white font-sans">
+
+  <!-- NAVIGATION -->
+  <nav class="sticky top-0 z-50 bg-black/50 backdrop-blur-md border-b border-gray-800">
+    <div class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-2xl font-bold tracking-wide">Elite Photo Studio</h1>
+      <ul class="hidden md:flex gap-8 text-lg font-medium">
+        <li><a href="index.html" class="hover:text-pink-400 transition">Home</a></li>
+        <li><a href="about.html" class="hover:text-pink-400 transition">About Us</a></li>
+        <li><a href="service.html" class="hover:text-pink-400 transition">Services</a></li>
+        <li><a href="portfolio.html" class="text-pink-400">Portfolio</a></li>
+        <li><a href="price.html" class="hover:text-pink-400 transition">Pricing</a></li>
+        <li><a href="contact.html" class="hover:text-pink-400 transition">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <section class="relative h-96 flex items-center justify-center bg-cover bg-center rounded-b-[3rem] shadow-2xl" style="background-image: url('https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f');">
+    <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/50 to-black"></div>
+    <div class="relative z-10 text-center px-6">
+      <h2 class="text-5xl md:text-6xl font-extrabold tracking-tight drop-shadow-lg">Our Portfolio</h2>
+      <p class="text-gray-300 mt-4 text-lg">Showcasing timeless stories through our lens</p>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="py-16">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-semibold mb-8">Explore by Category</h3>
+      <div class="flex flex-wrap justify-center gap-4">
+        <span class="px-6 py-2 bg-gradient-to-r from-pink-500 to-rose-500 text-white rounded-full shadow-lg cursor-pointer">All</span>
+        <span class="px-6 py-2 bg-white/10 backdrop-blur-md hover:bg-pink-500 hover:text-white rounded-full cursor-pointer transition">Weddings</span>
+        <span class="px-6 py-2 bg-white/10 backdrop-blur-md hover:bg-pink-500 hover:text-white rounded-full cursor-pointer transition">Portraits</span>
+        <span class="px-6 py-2 bg-white/10 backdrop-blur-md hover:bg-pink-500 hover:text-white rounded-full cursor-pointer transition">Events</span>
+        <span class="px-6 py-2 bg-white/10 backdrop-blur-md hover:bg-pink-500 hover:text-white rounded-full cursor-pointer transition">Commercial</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO GRID -->
+  <section class="pb-20">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        
+        <!-- IMAGE CARD -->
+        <div class="relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transform transition">
+          <img src="https://www.brides.com/thmb/LMyiMPxRFx82BLiHZC8lySJFnGo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/marriage-pose-photo-recirc-kyle-john-1-29-4f97523aa049471992292e8d6ddc41ee.jpg" class="object-cover w-full h-80 transform group-hover:scale-110 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 flex items-end justify-center p-6 transition">
+            <p class="text-white text-xl font-semibold">Wedding Shoot</p>
+          </div>
+        </div>
+
+        <div class="relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transform transition">
+          <img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/chilled-young-black-male-model-in-studio-portrait-free-image.jpeg?w=2210&quality=70" class="object-cover w-full h-80 transform group-hover:scale-110 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 flex items-end justify-center p-6 transition">
+            <p class="text-white text-xl font-semibold">Portrait</p>
+          </div>
+        </div>
+
+        <div class="relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transform transition">
+          <img src="https://content1.getnarrativeapp.com/static/d6f3c5d6-039d-45fc-aba3-fbe0ab26278d/Casual-studio-engagement-photos-at-cream-creative-space-in-Portland-Oregon-engagement-photo-poses-engagement-photo-outfits-simple-engagement-photos-couples-photo-studio-engagement-photoshoots-portland-engagement-photographer-oregon-engagement-photographer.jpg?w=1500" class="object-cover w-full h-80 transform group-hover:scale-110 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 flex items-end justify-center p-6 transition">
+            <p class="text-white text-xl font-semibold">Couple Session</p>
+          </div>
+        </div>
+
+        <div class="relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transform transition">
+          <img src="https://cococreativestudio.com/wp-content/uploads/2022/06/Headshot-Session-Jake-70575.jpg" class="object-cover w-full h-80 transform group-hover:scale-110 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 flex items-end justify-center p-6 transition">
+            <p class="text-white text-xl font-semibold">Corporate Headshot</p>
+          </div>
+        </div>
+
+        <div class="relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transform transition">
+          <img src="https://images.squarespace-cdn.com/content/v1/5f9306f63ef8480c49f3993c/1604102932790-7WKH36SCCKBP4E0CT42I/_DSC1225-1+copy.jpeg" class="object-cover w-full h-80 transform group-hover:scale-110 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 flex items-end justify-center p-6 transition">
+            <p class="text-white text-xl font-semibold">Event Coverage</p>
+          </div>
+        </div>
+
+        <div class="relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transform transition">
+          <img src="https://cococreativestudio.com/wp-content/uploads/2024/02/Eunice-photoshoot17131.jpg" class="object-cover w-full h-80 transform group-hover:scale-110 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 flex items-end justify-center p-6 transition">
+            <p class="text-white text-xl font-semibold">Fashion Shoot</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-black text-center py-8 border-t border-gray-800">
+    <p class="text-gray-500 relative z-10">&copy; 2025 Elite Photo Studio. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
